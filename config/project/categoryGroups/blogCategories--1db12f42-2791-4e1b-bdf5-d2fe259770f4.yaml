@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  07622e09-8bfe-4aed-808c-96a9b9eae4f1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: e55c0ff5-0da9-4b71-b641-65b720124965
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7e265275-f422-4fdf-aaac-00ec1ec7898b
+        userCondition: null
+handle: blogCategories
+name: 'Blog Categories'
+siteSettings:
+  b0166cf9-0634-4337-b7c7-1ae74591241c: # Craft Pioneer
+    hasUrls: true
+    template: blog/_category
+    uriFormat: 'blog/category/{slug}'
+structure:
+  maxLevels: 1
+  uid: 4040418a-9466-4897-9783-5acd39b754fc

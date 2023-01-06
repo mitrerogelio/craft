@@ -1,0 +1,60 @@
+dateModified: 1672982582
+email:
+  fromEmail: rogelinmitre@gmail.com
+  fromName: 'Craft Pioneer'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blogFilesystem:
+    hasUrls: true
+    name: blog-filesystem
+    settings:
+      path: '@webroot/assets/blog'
+    type: craft\fs\Local
+    url: '@web/assets/blog'
+  general:
+    hasUrls: true
+    name: general
+    settings:
+      path: '@webroot/assets/general'
+    type: craft\fs\Local
+    url: '@web/assets/general'
+meta:
+  __names__:
+    1a7c3155-5f23-47ac-8eae-a9ae5cfbd228: Blog # Blog
+    1db12f42-2791-4e1b-bdf5-d2fe259770f4: 'Blog Categories' # Blog Categories
+    1e5d7621-4867-4769-b946-244815c7f699: 'Feature Image' # Feature Image
+    5c8cb1e0-44b6-4f3e-a756-278be4073a4f: Text # Text
+    6baf6b89-1aeb-432e-9f67-dd4e807383ff: 'Site Information' # Site Information
+    09bbe7d8-1a68-41b5-8bcc-b0d61ecb9435: 'Blog Post Fields' # Blog Post Fields
+    35eeff12-5142-42e6-929d-13399a9e386e: Text # Text
+    50c19945-a745-4049-8f6b-bed1173a37d7: 'Blog Images' # Blog Images
+    96f9ef6e-4605-40f1-9055-639fa0885763: 'Post Content' # Post Content
+    769d48ab-5ffa-49f4-a89f-c4830fd177cf: 'Craft Pioneer' # Craft Pioneer
+    1562e10b-a641-405e-b2a6-caee30571d97: 'Site Description' # Site Description
+    8213f15c-1df5-4ff0-8795-c24d48be4fe2: 'Blog Entry Type' # Blog Entry Type
+    96228262-83c1-4622-8dc8-9966ada67432: Image # Image
+    a1e72ea3-cce2-4902-b9e3-7ded01b6d4a3: 'Post Categories' # Post Categories
+    a17d6950-80b8-4c00-9d52-a49e3208ff21: Common # Common
+    b0166cf9-0634-4337-b7c7-1ae74591241c: 'Craft Pioneer' # Craft Pioneer
+    d2f5811b-69c1-4a5d-bbe7-55fe50c799b2: 'Public Schema' # Public Schema
+    ddafa9c3-3601-4823-bee8-74d27ebb06c6: Summary # Summary
+    ec72be24-912b-441d-9d64-134f0312d47e: 'Global Fields' # Global Fields
+    f27f839b-8606-46c7-bb6f-1f0a11650311: 'General Iages'
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Pioneer'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  deactivateByDefault: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

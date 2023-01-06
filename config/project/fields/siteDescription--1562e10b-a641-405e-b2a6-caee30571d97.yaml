@@ -1,0 +1,19 @@
+columnSuffix: khnokjku
+contentColumnType: text
+fieldGroup: ec72be24-912b-441d-9d64-134f0312d47e # Global Fields
+handle: siteDescription
+instructions: null
+name: 'Site Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 1
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
